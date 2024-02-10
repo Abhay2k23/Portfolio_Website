@@ -584,47 +584,148 @@ input {
 .user-image img {
   width: 345px;
 }
-/* @media (max-width: 847px) {
-  .nav-items div {
-    position: fixed;
-  }
+@media (min-width: 800px) and (max-width: 1300px) {
   .hero-section {
-    width: 650px;
+    width: full;
+  }
+  .hero-section-right {
+    width: full;
+  }
+  .hero-section-left {
+    position: relative;
+    top: -10px;
+    width: 300px;
+  }
+  .hero-section-sub-heading {
+    font-size: 40px;
+    line-height: 30px;
+  }
+  .hero-section-left .hero-section-description {
+    position: relative;
+    padding-left: 0px;
+  }
+  .hero-section-description-para {
+    width: 120px;
+  }
+  .hero-section-right .icons {
+    display: none;
   }
   label #click,
   #cancel,
   input {
     display: visible;
   }
-}
-@media (max-width: 777px) {
-  .hero-section {
-    width: 300px;
-  }
-  .hero-section-right {
-    width: 150px;
-  }
-  .hero-section-left {
-    position: relative;
-    bottom: 120px;
-    width: 100px;
-  }
   .user-image {
-    width: 160px;
+    position: relative;
+    top: 50px;
+    display: block;
+    padding: 10px 60px;
   }
   .user-image img {
-    width: 100px;
+    position: relative;
+    right: 0px;
+    width: 200px;
   }
-  .hero-section-right .icon-dot,
-  .icon-circle,
-  .icon-cube,
-  .icon-plus,
-  .icon-zigzag {
-    width: 12px;
+  .faded-text {
+    font-size: 4rem;
   }
-} */
+  */
+/* projects */
+.btn-project {
+    padding: 0.4rem 1.15rem;
+  }
+  .project-number {
+    font-size: 50px;
+    top: 2px;
+    right: 20px;
+  }
+  .project-card {
+    width: 90%;
+    position: relative;
+    height: 350px;
+    margin: auto;
+  }
+  #project2 {
+    margin: auto;
+  }
+  .project-content-right {
+    padding: 0.5em;
+    left: 23px;
+    bottom: 20px;
+  }
+  .project-content-left {
+    padding: 0.5em;
+    bottom: 20px;
+  }
+  .project-skill {
+    width: 18px;
+  }
+  /* skills section */
+  .skill-heading {
+    width: 200px;
+  }
+  .skill-subHeading {
+    width: 200px;
+  }
+  .container {
+    max-width: 790px;
+    margin: 0 auto;
+  }
+  .skill-fade-text {
+    font-size: 5em;
+  }
+  .skill-container-left {
+    position: relative;
+    width: 300px;
+    left: -50px;
+  }
+  .skill-container-right {
+    position: relative;
+    left: -110px;
+  }
+  .skills-logo {
+    display: flex;
+    margin: 10px;
+    position: relative;
+    left: -50px;
+    width: 50px;
+  }
+  .blob-style {
+    left: -150%;
+    z-index: 1;
+  }
+  */
+/* footer */
+footer {
+    width: full;
+  }
+  .footer-wrapper {
+    width: full;
+  }
+  footer.container {
+    display: flex;
+    justify-content: center;
+    width: 375px;
+  }
+  .footer-faded-text {
+    position: absolute;
+    font-size: 3em;
+  }
+  .link-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 90px;
+  }
+  .icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 50px;
+  }
+}
 
-@media (max-width: 790px) {
+@media only screen and (max-width: 800px) and (min-width: 600px) {
   .hero-section {
     width: 200px;
   }
@@ -720,8 +821,190 @@ input {
     left: -50px;
     width: 50px;
   }
+  /* footer */
+  footer {
+    width: 800px;
+  }
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer.container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    width: 800px;
+  }
+  .footer-faded-text {
+    position: absolute;
+    font-size: 3em;
+  }
+  .link-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 90px;
+  }
+  .icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 140px;
+  }
 }
-@media (max-width: 375px) {
+@media (max-width: 600px) and (min-width: 200px) {
+  .hero-section {
+    width: 200px;
+  }
+  .hero-section-right {
+    width: 100px;
+  }
+  .hero-section-left {
+    position: relative;
+    top: -10px;
+    width: 100px;
+  }
+  .hero-section-sub-heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hero-section-left .hero-section-description {
+    position: relative;
+    padding-left: 0px;
+  }
+  .hero-section-description-para {
+    width: 120px;
+  }
+  .hero-section-right .icons {
+    display: none;
+  }
+  label #click,
+  #cancel,
+  input {
+    display: visible;
+  }
+  .user-image {
+    position: relative;
+    top: 50px;
+    display: block;
+    padding: 10px 60px;
+  }
+  .user-image img {
+    position: relative;
+    right: 50px;
+    width: 100px;
+  }
+  .faded-text {
+    font-size: 4rem;
+  }
+  /* projects */
+  .btn-project {
+    padding: 0.4rem 1.15rem;
+  }
+  .project-number {
+    font-size: 50px;
+    top: 2px;
+    right: 20px;
+  }
+  .project-card {
+    width: 90%;
+    position: relative;
+    height: 350px;
+    margin: auto;
+  }
+  #project2 {
+    margin: auto;
+  }
+  .project-content-right {
+    padding: 0.5em;
+    left: 23px;
+    bottom: 20px;
+  }
+  .project-content-left {
+    padding: 0.5em;
+    bottom: 20px;
+  }
+  .project-skill {
+    width: 18px;
+  }
+  /* skills section */
+  .skill-heading {
+    width: 200px;
+  }
+  .skill-subHeading {
+    width: 200px;
+  }
+  .container {
+    max-width: 790px;
+    margin: 0 auto;
+  }
+  .skill-fade-text {
+    font-size: 5em;
+  }
+  .skill-container-left {
+    position: relative;
+    width: 300px;
+    left: -50px;
+  }
+  .skill-container-right {
+    position: relative;
+    left: -110px;
+  }
+  .skills-logo {
+    display: flex;
+    margin: 10px;
+    position: relative;
+    left: -50px;
+    width: 50px;
+  }
+  .blob-style {
+    left: -150%;
+    z-index: 1;
+  }
+  /* contact me  */
+  /* .contactus-form-container .container {
+    width: 360px;
+  }
+  .contactus-heading {
+    font-size: 3em;
+    padding-left: 1em;
+    padding-top: 1em;
+  }
+  .contactus-sub-heading {
+    font-size: 1.8em;
+    padding-left: 2.3em;
+    width: 30px;
+  } */
+  /* footer */
+  footer {
+    width: full;
+  }
+  .footer-wrapper {
+    width: 300px;
+  }
+  footer.container {
+    display: flex;
+    justify-content: center;
+    width: 375px;
+  }
+  .footer-faded-text {
+    position: absolute;
+    font-size: 3em;
+  }
+  .link-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 90px;
+  }
+  .icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 50px;
+  }
+}
+/* @media (width >= 800) {
   .hero-section {
     width: 200px;
   }
@@ -764,12 +1047,12 @@ input {
     font-size: 4rem;
   }
   /* projects */
-  .btn-project {
+/*.btn-project {
     padding: 0.4rem 1.15rem;
   }
   .project-number {
-    font-size: 50px;
-    top: 2px;
+    font-size: 80px;
+    top: 20px;
     right: 20px;
   }
   .project-card {
@@ -791,10 +1074,10 @@ input {
     bottom: 20px;
   }
   .project-skill {
-    width: 18px;
+    width: 25px;
   }
   /* skills section */
-  .container {
+/* .container {
     max-width: 790px;
     margin: 0 auto;
   }
@@ -808,7 +1091,7 @@ input {
   }
   .skill-container-right {
     position: relative;
-    left: -70px;
+    left: -50px;
   }
   .skills-logo {
     display: flex;
@@ -817,30 +1100,14 @@ input {
     left: -50px;
     width: 50px;
   }
-  .blob-style {
-    left: -150%;
-    z-index: 1;
-  }
-  /* contact me  */
-  /* .contactus-form-container .container {
-    width: 360px;
-  }
-  .contactus-heading {
-    font-size: 3em;
-    padding-left: 1em;
-    padding-top: 1em;
-  }
-  .contactus-sub-heading {
-    font-size: 1.8em;
-    padding-left: 2.3em;
-    width: 30px;
-  } */
   /* footer */
-  footer {
-    width: 375px;
+
+/*footer {
+    width: full;
   }
   .footer-wrapper {
     width: 300px;
+    display: inline-block;
   }
   footer.container {
     display: flex;
@@ -863,4 +1130,4 @@ input {
     position: relative;
     right: 50px;
   }
-}
+} */
