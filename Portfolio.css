@@ -721,3 +721,146 @@ input {
     width: 50px;
   }
 }
+@media (max-width: 375px) {
+  .hero-section {
+    width: 200px;
+  }
+  .hero-section-right {
+    width: 100px;
+  }
+  .hero-section-left {
+    position: relative;
+    top: -10px;
+    width: 100px;
+  }
+  .hero-section-sub-heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hero-section-left .hero-section-description {
+    position: relative;
+    padding-left: 10px;
+  }
+  .hero-section-right .icons {
+    display: none;
+  }
+  label #click,
+  #cancel,
+  input {
+    display: visible;
+  }
+  .user-image {
+    position: relative;
+    top: 50px;
+    display: block;
+    padding: 40px 80px;
+  }
+  .user-image img {
+    position: relative;
+    right: 50px;
+    width: 100px;
+  }
+  .faded-text {
+    font-size: 4rem;
+  }
+  /* projects */
+  .btn-project {
+    padding: 0.4rem 1.15rem;
+  }
+  .project-number {
+    font-size: 50px;
+    top: 2px;
+    right: 20px;
+  }
+  .project-card {
+    width: 90%;
+    position: relative;
+    height: 350px;
+    margin: auto;
+  }
+  #project2 {
+    margin: auto;
+  }
+  .project-content-right {
+    padding: 0.5em;
+    left: 40px;
+    bottom: 20px;
+  }
+  .project-content-left {
+    padding: 0.5em;
+    bottom: 20px;
+  }
+  .project-skill {
+    width: 18px;
+  }
+  /* skills section */
+  .container {
+    max-width: 790px;
+    margin: 0 auto;
+  }
+  .skill-fade-text {
+    font-size: 5em;
+  }
+  .skill-container-left {
+    position: relative;
+    width: 300px;
+    left: -50px;
+  }
+  .skill-container-right {
+    position: relative;
+    left: -70px;
+  }
+  .skills-logo {
+    display: flex;
+    margin: 10px;
+    position: relative;
+    left: -50px;
+    width: 50px;
+  }
+  .blob-style {
+    left: -150%;
+    z-index: 1;
+  }
+  /* contact me  */
+  /* .contactus-form-container .container {
+    width: 360px;
+  }
+  .contactus-heading {
+    font-size: 3em;
+    padding-left: 1em;
+    padding-top: 1em;
+  }
+  .contactus-sub-heading {
+    font-size: 1.8em;
+    padding-left: 2.3em;
+    width: 30px;
+  } */
+  /* footer */
+  footer {
+    width: 375px;
+  }
+  .footer-wrapper {
+    width: 300px;
+  }
+  footer.container {
+    display: flex;
+    justify-content: center;
+    width: 375px;
+  }
+  .footer-faded-text {
+    position: absolute;
+    font-size: 3em;
+  }
+  .link-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 90px;
+  }
+  .icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 50px;
+  }
+}
