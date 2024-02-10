@@ -456,7 +456,12 @@ h2.page-header {
   font-size: 70px;
   padding-left: 10px;
 }
-.project-head {
+.project-head1 {
+  color: var(--bgOrange);
+  font-size: 30px;
+  margin: 0 auto;
+}
+.project-head2 {
   color: var(--bgOrange);
   font-size: 30px;
   margin: 0 auto;
@@ -657,5 +662,62 @@ input {
     position: relative;
     right: 50px;
     width: 100px;
+  }
+  .faded-text {
+    font-size: 4rem;
+  }
+  /* projects */
+  .btn-project {
+    padding: 0.4rem 1.15rem;
+  }
+  .project-number {
+    font-size: 80px;
+    top: 20px;
+    right: 20px;
+  }
+  .project-card {
+    width: 90%;
+    position: relative;
+    height: 350px;
+    margin: auto;
+  }
+  #project2 {
+    margin: auto;
+  }
+  .project-content-right {
+    padding: 0.5em;
+    left: 40px;
+    bottom: 20px;
+  }
+  .project-content-left {
+    padding: 0.5em;
+    bottom: 20px;
+  }
+  .project-skill {
+    width: 25px;
+  }
+  /* skills section */
+  .container {
+    max-width: 790px;
+    margin: 0 auto;
+  }
+  .skill-fade-text {
+    font-size: 5em;
+  }
+  .skill-container-left {
+    position: relative;
+    width: 300px;
+    left: -50px;
+  }
+  .skill-container-right {
+    position: relative;
+    left: -50px;
+  }
+  .skills-logo {
+    display: flex;
+    margin: 10px;
+    position: relative;
+    left: -50px;
+    width: 50px;
   }
 }
