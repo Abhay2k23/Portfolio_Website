@@ -632,11 +632,12 @@ input {
     width: 100px;
   }
   .hero-section-sub-heading {
-    font-size: 10pxpx;
+    font-size: 20px;
+    line-height: 30px;
   }
   .hero-section-left .hero-section-description {
     position: relative;
-    padding-left: 40px;
+    padding-left: 10px;
   }
   .hero-section-right .icons {
     display: none;
@@ -650,10 +651,11 @@ input {
     position: relative;
     top: 50px;
     display: block;
-    padding: 10px;
+    padding: 60px 100px;
   }
   .user-image img {
-    padding: 0 auto;
-    width: 60px;
+    position: relative;
+    right: 40px;
+    width: 100px;
   }
 }
