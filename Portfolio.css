@@ -651,11 +651,11 @@ input {
     position: relative;
     top: 50px;
     display: block;
-    padding: 60px 100px;
+    padding: 40px 80px;
   }
   .user-image img {
     position: relative;
-    right: 40px;
+    right: 50px;
     width: 100px;
   }
 }
