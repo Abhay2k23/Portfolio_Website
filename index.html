@@ -26,14 +26,12 @@
             <div class="logo-text">bhayraj Paul</div>
           </div>
           <div class="nav-items">
-            <input type="checkbox" id="check" />
-            <label for="check">
-              <i class="fas fa-bars" id="click"></i>
-              <i class="fas fa-times" id="cancel"></i>
-            </label>
-            <div><a href="#projects">Projects</a></div>
-            <div><a href="#skills">Skills</a></div>
-            <div><a href="#contact">Contact</a></div>
+            <div id="hamburger" class="hamburger"></div>
+            <ul class="list">
+              <li href="#projects">Projects</li>
+              <li href="#skills">Skills</li>
+              <li href="#contact">Contact</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -224,7 +222,7 @@
                   alt=""
                 />
               </div>
-              <h2 class="project-heading">Calculator</h2>
+              <h2 class="project-heading">Calculator App</h2>
               <div class="project-subHeading">
                 Calculator built using HTML , CSS & Javascript with embedded
                 dark mode.
@@ -535,6 +533,24 @@
     ></script>
 
     <script>
+      // hamburger
+      const elem = document.querySelector(".hamburger");
+      const hamburger = document.querySelector("#hamburger");
+      const navList = document.querySelector(".list");
+      function toggleMenu() {
+        if (
+          elem.classList.contains("open") &&
+          navList.classList.contains("show")
+        ) {
+          elem.classList.remove("open");
+          navList.classList.remove("show");
+        } else {
+          elem.classList.add("open");
+          navList.classList.add("show");
+        }
+      }
+      hamburger.addEventListener("click", toggleMenu);
+
       // Typed Js script
       var typeData = new Typed(".role", {
         strings: [
