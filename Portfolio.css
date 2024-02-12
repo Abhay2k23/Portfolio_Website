@@ -586,7 +586,7 @@ footer {
 .user-image img {
   width: 345px;
 }
-@media (min-width: 800px) and (max-width: 1300px) {
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
   .hero-section {
     width: full;
   }
@@ -595,18 +595,32 @@ footer {
   }
   .hero-section-left {
     position: relative;
-    top: -10px;
+    top: -120px;
     width: 300px;
+    gap: 2rem;
+  }
+  .role {
+    color: #4e45d5;
+    font-weight: 800;
+  }
+
+  .hero-section-description {
+    margin-top: 1rem;
+    width: 70%;
+    font-weight: 500;
   }
   .hero-section-sub-heading {
     font-size: 40px;
-    line-height: 30px;
+    line-height: 50px;
+    height: 100vh;
   }
   .hero-section-left .hero-section-description {
     position: relative;
     padding-left: 0px;
   }
   .hero-section-description-para {
+    position: relative;
+    top: -129px;
     width: 120px;
   }
   .hero-section-right .icons {
@@ -722,7 +736,6 @@ footer {
     right: 50px;
   }
 }
-
 @media only screen and (max-width: 800px) and (min-width: 600px) {
   .hamburger,
   .hamburger::before,
@@ -778,23 +791,35 @@ footer {
     width: 0;
   }
   .hero-section {
-    width: 200px;
+    width: 300px;
+    gap: 14em;
   }
   .hero-section-right {
     width: 100px;
   }
   .hero-section-left {
     position: relative;
+    display: flex;
     top: -10px;
     width: 100px;
   }
   .hero-section-sub-heading {
-    font-size: 20px;
-    line-height: 30px;
+    width: 100%;
+    height: 100vh;
+    line-height: 40px;
+    font-size: 30px;
   }
   .hero-section-left .hero-section-description {
     position: relative;
     padding-left: 10px;
+    margin-top: -164px;
+  }
+  .hero-section-description-para {
+    width: 200px;
+  }
+  .hero-section-right {
+    position: relative;
+    top: 54px;
   }
   .hero-section-right .icons {
     display: none;
@@ -899,7 +924,7 @@ footer {
     right: 140px;
   }
 }
-@media (max-width: 600px) and (min-width: 200px) {
+@media only screen and (max-width: 600px) and (min-width: 300px) {
   .hamburger,
   .hamburger::before,
   .hamburger::after {
@@ -974,23 +999,32 @@ footer {
     flex-direction: column;
   }
   .hero-section {
+    position: relative;
+    left: 170px;
     width: 200px;
   }
   .hero-section-right {
+    position: relative;
+    top: 63px;
     width: 100px;
   }
   .hero-section-left {
     position: relative;
-    top: -10px;
+    top: 45px;
     width: 100px;
   }
   .hero-section-sub-heading {
     font-size: 20px;
     line-height: 30px;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
   }
   .hero-section-left .hero-section-description {
+    font-size: 15px;
     position: relative;
-    padding-left: 0px;
+    bottom: 190px;
+    left: -5px;
   }
   .hero-section-description-para {
     width: 120px;
@@ -1010,11 +1044,18 @@ footer {
     width: 100px;
   }
   .faded-text {
+    position: relative;
+    top: 385px;
     font-size: 4rem;
+    left: -400px;
   }
   /* projects */
   .btn-project {
     padding: 0.4rem 1.15rem;
+  }
+  #projects {
+    position: relative;
+    bottom: 120px;
   }
   .project-number {
     font-size: 50px;
